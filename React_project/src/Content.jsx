@@ -1,7 +1,7 @@
 import StudentCard from "./StudentCard.jsx";
 import { useState } from "react";
 import Student from "./Student.jsx";
-export default function Content({}) {
+ export default function Content({}) {
     const [etudiants,setEtudiants] = useState( [
             { id: 1, nom: "Yassine", note: 8 },
             { id: 2, nom: "Ahmed", note: 5 },
